@@ -1,26 +1,43 @@
-# In.orbit fdront-end
+# Projeto In Orbit
 
-O projeto é um site desktop de registro de metas com progresso semanal.
+![In Orbit Header](https://i.imgur.com/XzMmpvZ.gif)
 
-## Pré-requisitos
+## Descrição
 
-Liste os pré-requisitos necessários para rodar o projeto:
+Este é o projeto In Orbit, um aplicativo que ...
 
+## Tecnologias Usadas
+
+- React
 - Node.js
-- npm ou yarn
+- Tailwind CSS
 
 ## Instalação
 
-Passos para instalar e configurar o ambiente de desenvolvimento:
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/Caarlos7x/in-orbit-frontend.git
+    ```
 
-```bash
-# Clone o repositório
-git clone https://github.com/Caarlos7x/in-orbit-frontend
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd in-orbit-frontend
+    ```
 
-# Entre no diretório do projeto
-cd seu-repositorio
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
 
-# Instale as dependências
-npm install
-# ou
-yarn install
+4. Inicie o servidor de desenvolvimento:
+    ```bash
+    npm start
+    ```
+
+## Contribuição
+
+Contribuições são bem-vindas! Por favor, siga as diretrizes de contribuição descritas no [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Licença
+
+Distribuído sob a licença XYZ. Veja `LICENSE` para mais informações.
