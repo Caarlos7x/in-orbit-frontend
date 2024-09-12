@@ -17,7 +17,7 @@ import { z } from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { Controller, useForm } from 'react-hook-form'
 import { createGoal } from '../http/create-goal'
-import { QueryClient, useQueryClient } from '@tanstack/react-query'
+import { useQueryClient } from '@tanstack/react-query'
 
 const createGoalForm = z.object({
   title: z.string().min(1, 'Informe a atividade que deseja cadastrar'),
